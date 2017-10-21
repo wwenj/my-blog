@@ -155,8 +155,10 @@ body{
     line-height: 20px;
 }
 .time-con-p .p-Notes{
-    color: #c7dcce;
     margin-top: 30px;
+}
+.time-con-p .p-Notes a{
+    color: #c7dcce;
 }
 .time-con-p-a {
     display: inline-block;

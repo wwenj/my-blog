@@ -27,6 +27,9 @@ body{
     float: left;
     cursor: pointer;
 }
+.top-nav-ul li a{
+    color: #fff;
+}
 .top-nav-ul .top-nav-out{
     /*display: none;*/
     height:0;

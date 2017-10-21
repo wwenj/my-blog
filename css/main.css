@@ -3,9 +3,10 @@ body{
 }
 .main{
     width:1000px;
-    height:2130px;
+    /*height:2130px;*/
     margin:auto;
 }
+/*首页首部*/
 .header{
     width: 100%;
     height:206px;
@@ -35,20 +36,20 @@ body{
     margin-top: 5px;
     overflow: hidden;
 }
+/*首页中间内容区*/
 .content-box{
-    width:100%;
-    height:1880px;
-    padding-top: 1px;
+    width:960px;
+    /*height:1880px;*/
+    padding: 20px;
     background: url("../img/concent-box.png");
 }
 .content{
     width:960px;
-    height:1840px;
-    margin:20px;
     box-shadow: #075498 0 1px 10px;
-    background: url("../img/concent-box.png") repeat;
+    background: url("../img/concent-box.png");
     box-sizing: border-box;
     padding-top: 1px;
+    padding-bottom: 10px;
 }
 .content-top{
     width: 920px;
@@ -61,7 +62,6 @@ body{
 }
 .content-time{
     width:100%;
-    height:800px;
 }
 .content-time-ul{
     position: relative;
